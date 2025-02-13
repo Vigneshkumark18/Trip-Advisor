@@ -1,0 +1,1481 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+/* section one */
+
+.section-one {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.section-one__s1 {}
+
+.section-one__s1 img {
+    width: 190px;
+}
+
+.section-one__s2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    right: 90px;
+}
+
+.section-one__s3 {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    right: 130px;
+}
+
+.section-one__s3__button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 550;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.menubar,
+.profile {
+    display: none;
+}
+
+/* section two */
+
+.section-two {
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    right: 60px;
+}
+
+.section-two__header {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.section-two__s1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.section-two__s1__para {
+    text-decoration: underline;
+}
+
+.section-two__s1 p {
+    cursor: pointer;
+}
+
+.section-two__s1 p:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.section-two__s2 {
+    margin-top: 30px;
+    border: solid black 1px;
+    padding: 20px;
+    width: 60%;
+    border-radius: 30px;
+    position: relative;
+    left: 240px;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section-two__s2 input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+
+}
+
+.section-two__s2 input {
+    outline: none
+}
+
+.search {
+    background-color: #84E9BD;
+    padding: 5px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    border-radius: 30px;
+    position: absolute;
+    left: 676px;
+    top: 3px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* section three */
+
+.section-three {
+    margin-top: 50px;
+    background-color: #F2ECF9;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    position: relative;
+}
+
+.section-three img {
+    width: 13%;
+    border-radius: 10px;
+    rotate: -10deg;
+    position: relative;
+    left: 20px;
+    top: 28px;
+}
+
+.section-three__s1__title {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.section-three__s1__paraone {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    font-size: 18px;
+}
+
+.section-three__s1__paratwo {
+    position: absolute;
+    left: 200px;
+    top: 135px;
+    font-size: 18px;
+}
+
+.section-three__s1__button {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    position: absolute;
+    left: 960px;
+    top: 120px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-three__s1__button:hover {
+    background-color: black;
+    transition: 1s;
+    color: white;
+}
+
+/* section four */
+
+.section-four {
+    margin-top: 50px;
+}
+
+.section-four__para {
+    margin-top: 10px;
+}
+
+.section-four__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-four__course__card {
+    width: 362px;
+    position: relative;
+}
+
+.section-four__course__card img {
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-four__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-four__heart {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-four__title {
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.section-four__title:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/* section five */
+
+.section-five {
+    margin-top: 50px;
+}
+
+.section-five__para {
+    margin-top: 10px;
+}
+
+.section-five__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-five__course__card {
+    width: 362px;
+    position: relative;
+}
+
+.section-five__course__card img {
+    height: 270px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-five__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-five__heart {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-five__title {
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.section-five__title:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+.section-five__subtitle {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.section-five__subtitle:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.section-five__heart__1 {
+    margin-top: 20px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.section-five__items {
+    opacity: 0.8;
+    text-align: center;
+}
+
+/* section-six */
+
+.section-six {
+    margin-top: 50px;
+}
+
+.section-six__para {
+    margin-top: 10px;
+}
+
+.section-six__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-six__course__card {
+    width: 265px;
+    position: relative;
+}
+
+.section-six__course__card img {
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-six__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-six__heart {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-six__title {
+    margin-top: 10px;
+}
+
+
+/* section seven */
+
+.section-seven {
+    margin-top: 50px;
+}
+
+.section-seven__para {
+    margin-top: 10px;
+}
+
+.section-seven__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-seven__course__card {
+    width: 265px;
+    position: relative;
+}
+
+.section-seven__course__card img {
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-seven__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-seven__heart {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-seven__title {
+    margin-top: 10px;
+}
+
+/* section eight */
+.section-eight {
+    margin-top: 50px;
+    background-color: #F2ECF9;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    position: relative;
+}
+
+.section-eight img {
+    width: 13%;
+    border-radius: 10px;
+    rotate: -10deg;
+    position: relative;
+    left: 20px;
+    top: 28px;
+}
+
+.section-eight__s1__title {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.section-eight__s1__paraone {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    font-size: 18px;
+}
+
+.section-eight__s1__paratwo {
+    position: absolute;
+    left: 200px;
+    top: 135px;
+    font-size: 18px;
+}
+
+.section-eight__s1__button {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    position: absolute;
+    left: 960px;
+    top: 120px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-eight__s1__button:hover {
+    background-color: black;
+    transition: 1s;
+    color: white;
+}
+
+/* section nine */
+
+.section-nine {
+    background-color: #F2F1EC;
+    margin-top: 50px;
+    height: 450px;
+    width: 200%;
+    position: relative;
+    right: 110px;
+
+}
+
+.section-nine__header {
+    position: relative;
+    top: 50px;
+    margin-left: 120px;
+}
+
+.section-nine__container {
+    margin-left: 120px;
+    margin-top: 70px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-nine__course__card {
+    width: 362px;
+    position: relative;
+}
+
+.section-nine__course__card img {
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-nine__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-nine__heart {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-nine__title {
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.section-nine__title:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.section-nine__title2 {
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.section-nine__title2:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/* section ten */
+.section-ten {
+    margin-top: 50px;
+}
+
+.section-ten__para {
+    margin-top: 20px;
+}
+
+.section-ten__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-ten__course__card {
+    width: 265px;
+    position: relative;
+}
+
+.section-ten__course__card img {
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-ten__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-ten__heart {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-ten__title {
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.section-ten__title2,
+.section-ten__title3,
+.section-ten__title4 {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* section eleven */
+
+.section-eleven {
+    margin-top: 50px;
+}
+
+.section-eleven__para {
+    margin-top: 20px;
+}
+
+.section-eleven__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-eleven__course__card {
+    width: 265px;
+    position: relative;
+}
+
+.section-eleven__course__card img {
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-eleven__course__card img:hover {
+    opacity: 0.7;
+}
+
+.section-eleven__heart {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    font-size: 25px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+
+.section-eleven__title {
+    position: absolute;
+    top: 230px;
+    font-weight: bolder;
+    left: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.section-eleven__title2,
+.section-eleven__title3,
+.section-eleven__title4 {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* section tweleve */
+
+.section-tweleve {
+    background-color: #F2ECF9;
+    margin-top: 30px;
+    height: 600px;
+    width: 1105px;
+    position: relative;
+}
+
+.section-tweleve img {
+    height: 550px;
+    width: 550px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.section-tweleve__s1__para img {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    width: 30px;
+}
+
+.section-tweleve__para {
+    position: absolute;
+    top: 200px;
+    left: 760px;
+    font-size: 18px;
+}
+
+.section-tweleve__title {
+    margin-top: 20px;
+    position: absolute;
+    top: 230px;
+    left: 710px;
+    font-size: 30px;
+
+}
+
+.section-tweleve__para1 {
+    position: absolute;
+    top: 290px;
+    left: 680px;
+    font-size: 18px;
+}
+
+.section-tweleve__para2 {
+    margin-top: 5px;
+    position: absolute;
+    top: 310px;
+    left: 720px;
+    font-size: 18px;
+}
+
+.section-tweleve__button {
+    margin-top: 10px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    color: white;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section-tweleve__button:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/* section thirteen */
+
+.section-thirteen {
+    margin-top: 50px;
+}
+
+.section-thirteen__para {
+    margin-top: 20px;
+}
+
+.section-thirteen__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.section-thirteen__course__card {
+    width: 265px;
+    position: relative;
+}
+
+.section-thirteen__course__card img {
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.section-thirteen__course__card img:hover {
+    opacity: 0.7;
+}
+
+
+.section-thirteen__head {
+    position: absolute;
+    top: -10px;
+    font-weight: bolder;
+    left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.section-thirteen__head1 {
+    position: absolute;
+    top: 10px;
+    font-weight: bolder;
+    left: 20px;
+    color: black;
+    margin-top: 17px;
+}
+
+.section-thirteen__head2 {
+    position: absolute;
+    top: 45px;
+    font-weight: bolder;
+    left: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.section-thirteen__title {
+    margin-top: 10px;
+}
+
+.section-thirteen__para {
+    margin-top: 10px;
+}
+
+/* section fourteen */
+
+.section-fourteen {
+    margin-top: 50px;
+    position: relative;
+    right: 140px;
+
+}
+
+.section-fourteen img {
+    width: 1400px;
+}
+
+/* section fifteen */
+
+.section-fifteen {
+    margin-top: 80px;
+    right: 120px;
+    position: relative;
+    height: 450px;
+    background-color: #F2F2F2;
+    width: 1500px;
+}
+
+.section-fifteen__one {
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-fifteen__one p {
+    margin: 7px;
+}
+
+.section-fifteen__one__s1 {
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+
+.section-fifteen__one__s1 p:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+.section-fifteen__one__s2 {
+    position: relative;
+    right: 120px;
+    cursor: pointer;
+}
+
+.section-fifteen__one__s2 p:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+.section-fifteen__one__s3 {
+    position: relative;
+    right: 220px;
+    cursor: pointer;
+}
+
+.section-fifteen__one__s3 p:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+.section-fifteen__one__s4 {
+    position: relative;
+    right: 230px;
+}
+
+.section-fifteen__two {
+    display: flex;
+    margin-top: 80px;
+}
+
+.section-fifteen__two img {
+    width: 50px;
+    bottom: 20px;
+    position: relative;
+    left: 120px;
+}
+
+.section-fifteen__two__title {
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+.section-fifteen__two__s1 {
+    margin-top: 10px;
+    position: relative;
+    right: 155px;
+    text-decoration: underline;
+}
+
+.section-fifteen__two__s2 {
+    position: relative;
+    left: 60px;
+
+}
+
+.section-fifteen__two__s2 select,
+.section-fifteen__two__s3 select {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.section-fifteen__two__s2 select:hover {
+    opacity: 0.7;
+}
+
+.section-fifteen__two__s3 select:hover {
+    opacity: 0.7;
+}
+
+.section-fifteen__two__s3 {
+    position: relative;
+    left: 70px;
+}
+
+.section-fifteen__three {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-fifteen__three__s1 {
+    position: relative;
+    left: 120px;
+}
+
+.section-fifteen__three__s2 {
+    position: relative;
+    right: 280px;
+    font-size: 25px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    /* section one */
+
+    .section-one {
+        background-color: white;
+    }
+
+    .section-one__s1 img {
+        position: relative;
+        right: 5px;
+        top: 40px;
+        width: 130px;
+    }
+
+    .section-one__s2 {
+        display: none;
+    }
+
+    .section-one__s3 {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        position: relative;
+        top: 45px;
+        left: 25px;
+    }
+
+    .profile {
+        display: block;
+        position: relative;
+        top: 50px;
+        right: 30px;
+    }
+
+    /* section two */
+
+    .section-two__header {
+        position: relative;
+        left: 60px;
+        font-size: 30px;
+    }
+
+    .section-two__s1 {
+        position: relative;
+        left: 60px;
+        font-size: 10px;
+    }
+
+    .section-two__s2 {
+        position: relative;
+        left: 140px;
+
+    }
+
+    /* section three */
+
+    .section-three {
+        display: none;
+    }
+
+    .section-four__container {
+        flex-wrap: wrap;
+    }
+
+    .section-four__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    /* section four */
+
+    .section-four {
+        margin-left: 20px;
+    }
+
+    .section-four__heart {
+        left: 350px;
+
+    }
+
+    .section-four__course__card img {
+        width: 85%;
+    }
+
+    .section-four__title {
+        position: relative;
+        left: -20px;
+        bottom: 10px;
+    }
+
+    /* section five */
+
+    .section-five__container {
+        flex-wrap: wrap;
+    }
+
+    .section-five__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-five {
+        margin-left: 20px;
+    }
+
+    .section-five__heart {
+        left: 350px;
+
+    }
+
+    .section-five__course__card img {
+        width: 85%;
+    }
+
+    .section-five__title {
+        position: relative;
+        left: -50px;
+        bottom: 10px;
+    }
+
+    .section-five__subtitle {
+        position: relative;
+        left: -60px;
+    }
+
+    .section-five__heart__1,
+    .section-five__items {
+        position: relative;
+        left: -60px;
+    }
+
+    /* section six */
+
+    .section-six__container {
+        flex-wrap: wrap;
+    }
+
+    .section-six__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-six {
+        margin-left: 20px;
+    }
+
+    .section-six__heart {
+        left: 350px;
+
+    }
+
+    .section-six__course__card img {
+        width: 85%;
+    }
+
+    .section-six__title {
+        position: relative;
+        left: -2px;
+        bottom: 10px;
+    }
+
+    /* section seven */
+
+    .section-seven__container {
+        flex-wrap: wrap;
+    }
+
+    .section-seven__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-seven {
+        margin-left: 20px;
+    }
+
+    .section-seven__heart {
+        left: 350px;
+
+    }
+
+    .section-seven__course__card img {
+        width: 85%;
+    }
+
+    .section-seven__title {
+        position: relative;
+        left: 0px;
+        bottom: 10px;
+    }
+
+    /* section eight */
+
+    .section-eight {
+        display: none;
+    }
+
+    /* section nine */
+
+    .section-nine__container {
+        flex-wrap: wrap;
+    }
+
+    .section-nine__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-nine {
+        margin-left: 20px;
+        display: none;
+    }
+
+    .section-nine__heart {
+        left: 350px;
+
+    }
+
+    .section-nine__course__card img {
+        width: 85%;
+    }
+
+    .section-nine__title {
+        position: relative;
+        left: -20px;
+        bottom: 10px;
+    }
+
+    /* section ten */
+
+    .section-ten__container {
+        flex-wrap: wrap;
+    }
+
+    .section-ten__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-ten {
+        margin-left: 20px;
+    }
+
+    .section-ten__heart {
+        left: 350px;
+
+    }
+
+    .section-ten__course__card img {
+        width: 85%;
+    }
+
+    .section-ten__title {
+        position: relative;
+        left: -20px;
+        bottom: 10px;
+    }
+
+    /* section eleven */
+
+    .section-eleven__container {
+        flex-wrap: wrap;
+    }
+
+    .section-eleven__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-eleven {
+        margin-left: 20px;
+    }
+
+    .section-eleven__heart {
+        left: 350px;
+
+    }
+
+    .section-eleven__course__card img {
+        width: 85%;
+    }
+
+    .section-eleven__title {
+        position: relative;
+        left: -20px;
+        bottom: 10px;
+    }
+
+    /* section tweleve */
+
+    .section-tweleve {
+        height: 300px;
+        width: 1100px;
+        position: relative;
+    }
+
+    .section-tweleve img {
+        height: 250px;
+        width: 250px;
+
+    }
+
+
+    .section-tweleve__para {
+        position: absolute;
+        top: 100px;
+        left: 330px;
+        font-size: 12px;
+    }
+
+    .section-tweleve__title {
+        margin-top: 20px;
+        position: absolute;
+        top: 110px;
+        left: 330px;
+        font-size: 13px;
+
+    }
+
+    .section-tweleve__para1 {
+        position: absolute;
+        top: 150px;
+        left: 310px;
+        font-size: 12px;
+    }
+
+    .section-tweleve__para2 {
+        margin-top: 5px;
+        position: absolute;
+        top: 165px;
+        left: 320px;
+        font-size: 12px;
+    }
+
+    .section-tweleve__button {
+
+        position: absolute;
+        top: 190px;
+        left: 350px;
+        color: white;
+        background-color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    /* section-thirteen */
+
+    .section-thirteen__container {
+        flex-wrap: wrap;
+    }
+
+    .section-thirteen__head,
+    .section-thirteen__head1,
+    .section-thirteen__head2 {
+        display: none;
+    }
+
+    .section-thirteen__course__card {
+        flex-grow: 1;
+        flex-basis: 49%;
+
+    }
+
+    .section-thirteen {
+        margin-left: 20px;
+    }
+
+    .section-thirteen__heart {
+        left: 350px;
+
+    }
+
+    .section-thirteen__course__card img {
+        width: 85%;
+    }
+
+    .section-thirteen__title {
+        position: relative;
+        left: -0px;
+        bottom: 10px;
+    }
+
+    /* section fourteen */
+
+    .section-fourteen img {
+        margin-left: 70px;
+        height: 400px;
+        width: 700px;
+    }
+
+    /* section fifteen */
+
+
+    .section-fifteen__one__s1 {
+        position: relative;
+        left: 40px;
+        cursor: pointer;
+    }
+
+
+    .section-fifteen__one__s2 {
+        position: relative;
+        right: 150px;
+        cursor: pointer;
+    }
+
+
+    .section-fifteen__one__s3 {
+        position: relative;
+        right: 340px;
+        cursor: pointer;
+    }
+
+    .section-fifteen__two__s2 select,
+    .section-fifteen__two__s3 select {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .section-fifteen__two__s2 select {
+        position: relative;
+        right: 730px;
+        top: 120px;
+
+    }
+
+    .section-fifteen__two__s3 select {
+        position: relative;
+        right: 735px;
+        top: 120px;
+    }
+
+
+    .section-fifteen__three__s2 {
+        position: relative;
+        right: 900px;
+        font-size: 25px;
+        margin-left: 35px;
+        display: flex;
+        gap: 20px;
+        top: 60px;
+
+    }
+
+
+}
